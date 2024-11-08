@@ -1,0 +1,43 @@
+/* Estilo para el contenido del Body */
+.body-content {
+    background-color: #333; /* Fondo oscuro */
+    color: white; /* Texto claro para contraste */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrado de texto */
+    border-radius: 8px; /* Bordes redondeados */
+    margin: 0 auto; /* Centrado del contenedor */
+    max-width: 800px; /* Ancho máximo para no extenderse mucho */
+}
+
+/* Estilo para los párrafos */
+.body-content p {
+    font-size: 16px; /* Tamaño de fuente */
+    line-height: 1.6; /* Altura de línea para mejorar la legibilidad */
+    margin-bottom: 15px; /* Separación entre párrafos */
+}
+
+/* Estilo para los encabezados (h1, h2, h3) */
+.body-content h1,
+.body-content h2,
+.body-content h3 {
+    color: #f5f5f5; /* Color claro para los encabezados */
+    font-weight: bold;
+}
+
+/* Estilo para los enlaces */
+.body-content a {
+    color: #ffcc00; /* Color amarillo para enlaces */
+    text-decoration: underline;
+}
+
+.body-content a:hover {
+    color: #ff9900; /* Color al pasar el mouse por encima */
+}
+
+/* Estilo para las imágenes */
+.body-content img {
+    max-width: 100%; /* Asegura que las imágenes no se salgan del contenedor */
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+}
