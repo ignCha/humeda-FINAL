@@ -1,10 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
 
-</body>
-</html>
+{% block content %}
+    <main class="container py-5">
+        <section class="card card-body">
+            <div>
+                {% for block in content_blocks %}
+                  <div class="content-block">
+                    <div class="body-content">
+                      {{ block.Body|safe }}
+                    </div>
+                  </div>
+                    <div class="text-center">
+                        <a href="{% url 'Home-app:EditContentHome' block.id %}" class="btn btn-dark">Editar</a>
+                    </div>
+                {% endfor %}
+            </div>
+            
+        </section>
+    </main>
+{% endblock %}
