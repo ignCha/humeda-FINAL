@@ -1,10 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends 'base.html'%}
+
+{% block content %}
+{% load static %}
+
+<div class="col-10 d-flex justify-content-center " style="width: 100%">
+    <div >
+        <h1 style="color: #198754" >Amenazas</h1>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="card">
+    <a href="" style="text-decoration: none">
+        <img style="width: 100%" class="img-fluid" src="{% static "photos/1.png" %}" alt="{{ img.title }}">
+            <div class="card-content">
+                <h3 class="card-title" style="color: #198754" >Amenaza1</h3>
+                <p style="text-decoration: none" class="card-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, in mollitia necessitatibus quis reprehenderit sequi tempore unde vitae! Aspernatur beatae culpa cum in itaque iure minima necessitatibus, neque praesentium rem.</p>
+        </div>
+    </a>
+    </div>
+
+      <div class="card">
+    <a href="" style="text-decoration: none">
+        <img style="width: 100%" class="img-fluid" src="{% static "photos/2.png" %}" alt="{{ img.title }}">
+            <div class="card-content">
+                <h3 class="card-title" style="color: #198754" >Amenaza2</h3>
+                <p style="text-decoration: none" class="card-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, in mollitia necessitatibus quis reprehenderit sequi tempore unde vitae! Aspernatur beatae culpa cum in itaque iure minima necessitatibus, neque praesentium rem.</p>
+        </div>
+    </a>
+    </div>
+
+  <div class="card">
+    <a href="" style="text-decoration: none">
+        <img style="width: 100%" class="img-fluid" src="{% static "photos/3.png" %}" alt="{{ img.title }}">
+            <div class="card-content">
+                <h3 class="card-title" style="color: #198754" >Amenaza3</h3>
+                <p style="text-decoration: none" class="card-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, in mollitia necessitatibus quis reprehenderit sequi tempore unde vitae! Aspernatur beatae culpa cum in itaque iure minima necessitatibus, neque praesentium rem.</p>
+        </div>
+    </a>
+    </div>
+</div>
+
+
+{% endblock %}

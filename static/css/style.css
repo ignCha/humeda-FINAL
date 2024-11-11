@@ -2,3 +2,46 @@
     width: 100%;
     max-width: 100%;
 }
+
+.btn-Sub  {
+    font-size: 18px;text-decoration: none;color: white; border-radius: 10px; padding: 10px;
+    color: black;
+}
+
+.btn-Sub:hover{
+    background-color: #198754 ;
+    color: white;
+    transition: .3s;
+}
+
+ .container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            padding: 20px;
+ }
+ .card {
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: left;
+        }
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    }
+.card-content {
+     padding: 15px;
+        }
+.card-title {
+     font-size: 1.2em;
+     color: #004488;
+     font-weight: bold;
+        }
+.card-description {
+      font-size: 0.9em;
+      color: #333;
+      line-height: 1.6;
+}
